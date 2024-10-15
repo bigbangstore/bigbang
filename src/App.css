@@ -1,38 +1,121 @@
-.App {
+/* Overall App Styling */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header Styling */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Search and Language Container */
+.search-and-language {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex-wrap: nowrap;
+  gap: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #f3bc3c;
+  border: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+/* Product Categories Section */
+.product-categories {
+  margin-top: 40px;
+}
+
+/* Card Row Styling */
+.card-row {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-behavior: smooth;
+  white-space: nowrap; /* Prevents wrapping onto a new line */
+}
+.card-row::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari */
+}
+
+/* Individual Card Styling */
+.card {
+  background-color: #333;
+  color: #f3bc3c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 200px; /* Fixed width for consistent sizing */
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.card-price {
+  font-size: 1rem;
+  color: #f3bc3c;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 0.9rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .card-row {
+    flex-direction: row; /* Keep cards in a horizontal row */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
   }
 }
