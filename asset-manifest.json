@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/bigbang/static/css/main.f7750852.chunk.css",
-    "main.js": "/bigbang/static/js/main.74296acb.chunk.js",
-    "main.js.map": "/bigbang/static/js/main.74296acb.chunk.js.map",
-    "runtime~main.js": "/bigbang/static/js/runtime~main.010095f6.js",
-    "runtime~main.js.map": "/bigbang/static/js/runtime~main.010095f6.js.map",
-    "static/js/2.3c665e94.chunk.js": "/bigbang/static/js/2.3c665e94.chunk.js",
-    "static/js/2.3c665e94.chunk.js.map": "/bigbang/static/js/2.3c665e94.chunk.js.map",
-    "static/js/3.730e5367.chunk.js": "/bigbang/static/js/3.730e5367.chunk.js",
-    "static/js/3.730e5367.chunk.js.map": "/bigbang/static/js/3.730e5367.chunk.js.map",
+    "main.css": "/bigbang/static/css/main.ca233b52.css",
+    "main.js": "/bigbang/static/js/main.205c9bf5.js",
+    "static/js/453.ed3810f9.chunk.js": "/bigbang/static/js/453.ed3810f9.chunk.js",
+    "static/media/powerbank.jpg": "/bigbang/static/media/powerbank.b7672a1e98be330fd9db.jpg",
+    "static/media/smartwatch1.jpg": "/bigbang/static/media/smartwatch1.12cef6a0cbe12f27cc85.jpg",
+    "static/media/powerbank3.webp": "/bigbang/static/media/powerbank3.5d4806e67a998988d990.webp",
+    "static/media/earphone1.jpg": "/bigbang/static/media/earphone1.e6d7d99b3cb7db5ca869.jpg",
+    "static/media/earphone2.jpg": "/bigbang/static/media/earphone2.0edb61ae40f8b6587243.jpg",
+    "static/media/powerbank4.jpg": "/bigbang/static/media/powerbank4.5438b3e409edb4d0d2e7.jpg",
+    "static/media/smartwatch2.jpeg": "/bigbang/static/media/smartwatch2.2da77f94894f2720cc6c.jpeg",
     "index.html": "/bigbang/index.html",
-    "precache-manifest.ec815dee25e57d80592a25e2b3a22634.js": "/bigbang/precache-manifest.ec815dee25e57d80592a25e2b3a22634.js",
-    "service-worker.js": "/bigbang/service-worker.js",
-    "static/css/main.f7750852.chunk.css.map": "/bigbang/static/css/main.f7750852.chunk.css.map",
-    "static/media/earphone1.jpg": "/bigbang/static/media/earphone1.155bb000.jpg",
-    "static/media/earphone2.jpg": "/bigbang/static/media/earphone2.0859d323.jpg",
-    "static/media/smartwatch1.jpg": "/bigbang/static/media/smartwatch1.c115b7de.jpg",
-    "static/media/smartwatch2.jpeg": "/bigbang/static/media/smartwatch2.02d6201c.jpeg"
-  }
+    "main.ca233b52.css.map": "/bigbang/static/css/main.ca233b52.css.map",
+    "main.205c9bf5.js.map": "/bigbang/static/js/main.205c9bf5.js.map",
+    "453.ed3810f9.chunk.js.map": "/bigbang/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca233b52.css",
+    "static/js/main.205c9bf5.js"
+  ]
 }
