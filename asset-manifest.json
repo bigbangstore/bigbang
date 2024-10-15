@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bigbangstore/bigbang.git/static/css/main.f7750852.chunk.css",
-    "main.js": "/bigbangstore/bigbang.git/static/js/main.74296acb.chunk.js",
-    "main.js.map": "/bigbangstore/bigbang.git/static/js/main.74296acb.chunk.js.map",
-    "runtime~main.js": "/bigbangstore/bigbang.git/static/js/runtime~main.2b35747d.js",
-    "runtime~main.js.map": "/bigbangstore/bigbang.git/static/js/runtime~main.2b35747d.js.map",
-    "static/js/2.3c665e94.chunk.js": "/bigbangstore/bigbang.git/static/js/2.3c665e94.chunk.js",
-    "static/js/2.3c665e94.chunk.js.map": "/bigbangstore/bigbang.git/static/js/2.3c665e94.chunk.js.map",
-    "static/js/3.730e5367.chunk.js": "/bigbangstore/bigbang.git/static/js/3.730e5367.chunk.js",
-    "static/js/3.730e5367.chunk.js.map": "/bigbangstore/bigbang.git/static/js/3.730e5367.chunk.js.map",
-    "index.html": "/bigbangstore/bigbang.git/index.html",
-    "precache-manifest.1cf0bb641db6f6ec5908c1af14dc2d38.js": "/bigbangstore/bigbang.git/precache-manifest.1cf0bb641db6f6ec5908c1af14dc2d38.js",
-    "service-worker.js": "/bigbangstore/bigbang.git/service-worker.js",
-    "static/css/main.f7750852.chunk.css.map": "/bigbangstore/bigbang.git/static/css/main.f7750852.chunk.css.map",
-    "static/media/earphone1.jpg": "/bigbangstore/bigbang.git/static/media/earphone1.155bb000.jpg",
-    "static/media/earphone2.jpg": "/bigbangstore/bigbang.git/static/media/earphone2.0859d323.jpg",
-    "static/media/smartwatch1.jpg": "/bigbangstore/bigbang.git/static/media/smartwatch1.c115b7de.jpg",
-    "static/media/smartwatch2.jpeg": "/bigbangstore/bigbang.git/static/media/smartwatch2.02d6201c.jpeg"
+    "main.css": "/bigbang/static/css/main.f7750852.chunk.css",
+    "main.js": "/bigbang/static/js/main.74296acb.chunk.js",
+    "main.js.map": "/bigbang/static/js/main.74296acb.chunk.js.map",
+    "runtime~main.js": "/bigbang/static/js/runtime~main.010095f6.js",
+    "runtime~main.js.map": "/bigbang/static/js/runtime~main.010095f6.js.map",
+    "static/js/2.3c665e94.chunk.js": "/bigbang/static/js/2.3c665e94.chunk.js",
+    "static/js/2.3c665e94.chunk.js.map": "/bigbang/static/js/2.3c665e94.chunk.js.map",
+    "static/js/3.730e5367.chunk.js": "/bigbang/static/js/3.730e5367.chunk.js",
+    "static/js/3.730e5367.chunk.js.map": "/bigbang/static/js/3.730e5367.chunk.js.map",
+    "index.html": "/bigbang/index.html",
+    "precache-manifest.ec815dee25e57d80592a25e2b3a22634.js": "/bigbang/precache-manifest.ec815dee25e57d80592a25e2b3a22634.js",
+    "service-worker.js": "/bigbang/service-worker.js",
+    "static/css/main.f7750852.chunk.css.map": "/bigbang/static/css/main.f7750852.chunk.css.map",
+    "static/media/earphone1.jpg": "/bigbang/static/media/earphone1.155bb000.jpg",
+    "static/media/earphone2.jpg": "/bigbang/static/media/earphone2.0859d323.jpg",
+    "static/media/smartwatch1.jpg": "/bigbang/static/media/smartwatch1.c115b7de.jpg",
+    "static/media/smartwatch2.jpeg": "/bigbang/static/media/smartwatch2.02d6201c.jpeg"
   }
 }
