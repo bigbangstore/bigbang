@@ -1,36 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './styles/Card.css';
 
-const products = [
-  {
-    id: 1,
-    title: "پاور بانک ",
-    price: "۷۰۰ افغانی",
-    imgSrc: "powerbanks/powerbank.jpg",
-  },
-  {
-    id: 2,
-    title: "پاور بانک ",
-    price: "500 افغانی",
-    imgSrc: "powerbanks/powerbank1.jpeg",
-  },
-  {
-    id: 3,
-    title: "پاور بانک ",
-    price: "400 افغانی",
-    imgSrc: "powerbanks/powerbank3.webp",
-  },
-  {
-    id: 4,
-    title: "پاور بانک ",
-    price: "1500 افغانی",
-    imgSrc: "powerbanks/powerbank4.jpg",
-  },
-];
-
-
-
-const Card = () => {
+const Card = ({ products }) => {
   const cardRowRef = useRef(null);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const scrollInterval = useRef(null);
@@ -57,7 +28,6 @@ const Card = () => {
     scrollToCard(newIndex);
   };
 
-  // Center the current card on load (optional, for mobile)
   useEffect(() => {
     if (window.innerWidth <= 600) {
       scrollToCard(currentCardIndex);
@@ -67,7 +37,7 @@ const Card = () => {
   const handleMouseDown = (direction) => {
     scrollInterval.current = setInterval(() => {
       cardRowRef.current.scrollLeft += direction === "left" ? -200 : 200;
-    }, 16); // Smooth scroll at a speed of 30px
+    }, 16);
   };
 
   const handleMouseUp = () => {
@@ -81,7 +51,7 @@ const Card = () => {
         onClick={scrollLeft}
         onMouseDown={() => handleMouseDown("left")}
         onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp} // Stop scrolling if mouse leaves the button
+        onMouseLeave={handleMouseUp}
       >
         &#9664;
       </button>
