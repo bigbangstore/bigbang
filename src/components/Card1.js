@@ -1,36 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './styles/Card.css';
 
-const products = [
-  {
-    id: 1,
-    title: "ایرپاد پرو 2",
-    price: "$۷۰۰ افغانی",
-    imgSrc: "smartwatches/smartwatch1.jpg",
-  },
-  {
-    id: 2,
-    title: "ایرپاد پرو 3",
-    price: "500 افغانی",
-    imgSrc: "smartwatches/smartwatch2.jpeg",
-  },
-  {
-    id: 3,
-    title: "ایرپاد پرو ",
-    price: "400 افغانی",
-    imgSrc: "smartwatches/smartwatch3.jpeg",
-  },
-  {
-    id: 4,
-    title: "مونستر",
-    price: "1500 افغانی",
-    imgSrc: "smartwatches/smartwatch3.jpeg",
-  },
-];
-
-
-
-const Card = () => {
+const Card1 = ({ products }) => { // Accept products as a prop
   const cardRowRef = useRef(null);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const scrollInterval = useRef(null);
@@ -113,4 +84,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card1;
