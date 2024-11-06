@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/bigbang/static/css/main.47a685a7.chunk.css",
-    "main.js": "/bigbang/static/js/main.8d65743b.chunk.js",
-    "main.js.map": "/bigbang/static/js/main.8d65743b.chunk.js.map",
-    "runtime~main.js": "/bigbang/static/js/runtime~main.30663f0c.js",
-    "runtime~main.js.map": "/bigbang/static/js/runtime~main.30663f0c.js.map",
-    "static/js/2.5d1d51ac.chunk.js": "/bigbang/static/js/2.5d1d51ac.chunk.js",
-    "static/js/2.5d1d51ac.chunk.js.map": "/bigbang/static/js/2.5d1d51ac.chunk.js.map",
-    "static/js/3.1af95c37.chunk.js": "/bigbang/static/js/3.1af95c37.chunk.js",
-    "static/js/3.1af95c37.chunk.js.map": "/bigbang/static/js/3.1af95c37.chunk.js.map",
+    "main.js": "/bigbang/static/js/main.67aa8b24.chunk.js",
+    "main.js.map": "/bigbang/static/js/main.67aa8b24.chunk.js.map",
+    "runtime-main.js": "/bigbang/static/js/runtime-main.627135bf.js",
+    "runtime-main.js.map": "/bigbang/static/js/runtime-main.627135bf.js.map",
+    "static/js/2.ceb7adf2.chunk.js": "/bigbang/static/js/2.ceb7adf2.chunk.js",
+    "static/js/2.ceb7adf2.chunk.js.map": "/bigbang/static/js/2.ceb7adf2.chunk.js.map",
+    "static/js/3.af1fc242.chunk.js": "/bigbang/static/js/3.af1fc242.chunk.js",
+    "static/js/3.af1fc242.chunk.js.map": "/bigbang/static/js/3.af1fc242.chunk.js.map",
     "index.html": "/bigbang/index.html",
-    "precache-manifest.a72d89c4ef593b4d0e564b552eca9597.js": "/bigbang/precache-manifest.a72d89c4ef593b4d0e564b552eca9597.js",
+    "precache-manifest.0df6833b37ac1e3ca02c2f978c93b7e0.js": "/bigbang/precache-manifest.0df6833b37ac1e3ca02c2f978c93b7e0.js",
     "service-worker.js": "/bigbang/service-worker.js",
     "static/css/main.47a685a7.chunk.css.map": "/bigbang/static/css/main.47a685a7.chunk.css.map",
+    "static/js/2.ceb7adf2.chunk.js.LICENSE.txt": "/bigbang/static/js/2.ceb7adf2.chunk.js.LICENSE.txt",
     "static/media/earphone1.jpg": "/bigbang/static/media/earphone1.155bb000.jpg",
     "static/media/earphone2.jpg": "/bigbang/static/media/earphone2.0859d323.jpg",
     "static/media/icons8-whatsapp-512.png": "/bigbang/static/media/icons8-whatsapp-512.45a2cf0d.png",
@@ -21,5 +22,11 @@
     "static/media/powerbank4.jpg": "/bigbang/static/media/powerbank4.ba61385a.jpg",
     "static/media/smartwatch1.jpg": "/bigbang/static/media/smartwatch1.c115b7de.jpg",
     "static/media/smartwatch2.jpeg": "/bigbang/static/media/smartwatch2.02d6201c.jpeg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.627135bf.js",
+    "static/js/2.ceb7adf2.chunk.js",
+    "static/css/main.47a685a7.chunk.css",
+    "static/js/main.67aa8b24.chunk.js"
+  ]
 }

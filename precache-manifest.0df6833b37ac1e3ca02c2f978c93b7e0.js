@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "917934e50017d97bdc6c8c8e0ed83585",
+    "revision": "378ce646203ce68605f29539c53bc7d5",
     "url": "/bigbang/index.html"
   },
   {
-    "revision": "097d7a9e7797e03b897f",
+    "revision": "bb0a5683aacda2b2eb93",
     "url": "/bigbang/static/css/main.47a685a7.chunk.css"
   },
   {
-    "revision": "5f3e0cd4e8e45eef87dd",
-    "url": "/bigbang/static/js/2.5d1d51ac.chunk.js"
+    "revision": "63dd1849523b2024d765",
+    "url": "/bigbang/static/js/2.ceb7adf2.chunk.js"
   },
   {
-    "revision": "db4976e2c3fc371be79e",
-    "url": "/bigbang/static/js/3.1af95c37.chunk.js"
+    "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
+    "url": "/bigbang/static/js/2.ceb7adf2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "097d7a9e7797e03b897f",
-    "url": "/bigbang/static/js/main.8d65743b.chunk.js"
+    "revision": "d776de3425e90ce8baf8",
+    "url": "/bigbang/static/js/3.af1fc242.chunk.js"
   },
   {
-    "revision": "3da4a9d56ae5a531b2a0",
-    "url": "/bigbang/static/js/runtime~main.30663f0c.js"
+    "revision": "bb0a5683aacda2b2eb93",
+    "url": "/bigbang/static/js/main.67aa8b24.chunk.js"
+  },
+  {
+    "revision": "15084a98bc2bf7b0c166",
+    "url": "/bigbang/static/js/runtime-main.627135bf.js"
   },
   {
     "revision": "155bb000c10bf09289aaeb5dc9bfaf71",
