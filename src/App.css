@@ -118,6 +118,19 @@ h1 {
   font-size: 0.9rem;
 }
 
+/* Reset any margin or padding for the body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure the app container does not add padding */
+.app-container {
+  padding: 0; /* Remove any padding here */
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
   .card-row {
