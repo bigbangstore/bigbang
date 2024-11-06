@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Fuse from 'fuse.js';
 import HeaderDari from './components/HeaderDari';
 import HeaderPashto from './components/HeaderPashto';
 import SearchDari from './components/SearchDari';
@@ -34,15 +35,20 @@ function App() {
 
   const toggleLanguage = (lang) => setLanguage(lang);
 
+  // Fuse.js setup
+  const fuse = new Fuse(products, {
+    keys: ['title'], // Set the key you want to search (e.g., title)
+    threshold: 0.3,   // Set threshold for fuzziness. Lower = stricter matching
+    includeScore: true, // Include score to see the relevance
+  });
+
   const handleSearch = (term) => {
     setSearchTerm(term.toLowerCase());
     console.log("Search Term: ", term.toLowerCase()); // Log the search term
   };
 
-  // Filter products based on search term
-  const filteredProducts = products.filter((product) =>
-    product.title.toLowerCase().includes(searchTerm)
-  );
+  // Filter products using Fuse.js fuzzy search
+  const filteredProducts = fuse.search(searchTerm).map(result => result.item);
 
   console.log("Filtered Products: ", filteredProducts); // Log filtered products
 
@@ -56,8 +62,6 @@ function App() {
         ) : (
           <SearchPashto onSearch={handleSearch} />
         )}
-
-      
 
         <div className="language-switcher">
           <button
