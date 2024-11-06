@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03a76bf6a1b18255a7b48d25c6620662",
+    "revision": "917934e50017d97bdc6c8c8e0ed83585",
     "url": "/bigbang/index.html"
   },
   {
-    "revision": "c85a1af92c1dd684a182",
-    "url": "/bigbang/static/css/main.66eec2be.chunk.css"
+    "revision": "097d7a9e7797e03b897f",
+    "url": "/bigbang/static/css/main.47a685a7.chunk.css"
   },
   {
     "revision": "5f3e0cd4e8e45eef87dd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bigbang/static/js/3.1af95c37.chunk.js"
   },
   {
-    "revision": "c85a1af92c1dd684a182",
+    "revision": "097d7a9e7797e03b897f",
     "url": "/bigbang/static/js/main.8d65743b.chunk.js"
   },
   {
