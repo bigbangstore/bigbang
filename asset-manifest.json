@@ -1,32 +1,25 @@
 {
   "files": {
-    "main.css": "/bigbang/static/css/main.47a685a7.chunk.css",
-    "main.js": "/bigbang/static/js/main.67aa8b24.chunk.js",
-    "main.js.map": "/bigbang/static/js/main.67aa8b24.chunk.js.map",
-    "runtime-main.js": "/bigbang/static/js/runtime-main.627135bf.js",
-    "runtime-main.js.map": "/bigbang/static/js/runtime-main.627135bf.js.map",
-    "static/js/2.ceb7adf2.chunk.js": "/bigbang/static/js/2.ceb7adf2.chunk.js",
-    "static/js/2.ceb7adf2.chunk.js.map": "/bigbang/static/js/2.ceb7adf2.chunk.js.map",
-    "static/js/3.af1fc242.chunk.js": "/bigbang/static/js/3.af1fc242.chunk.js",
-    "static/js/3.af1fc242.chunk.js.map": "/bigbang/static/js/3.af1fc242.chunk.js.map",
+    "main.css": "/bigbang/static/css/main.36ac8185.chunk.css",
+    "main.js": "/bigbang/static/js/main.f64126e3.chunk.js",
+    "main.js.map": "/bigbang/static/js/main.f64126e3.chunk.js.map",
+    "runtime-main.js": "/bigbang/static/js/runtime-main.3288fc37.js",
+    "runtime-main.js.map": "/bigbang/static/js/runtime-main.3288fc37.js.map",
+    "static/js/2.2b152d7c.chunk.js": "/bigbang/static/js/2.2b152d7c.chunk.js",
+    "static/js/2.2b152d7c.chunk.js.map": "/bigbang/static/js/2.2b152d7c.chunk.js.map",
+    "static/js/3.aeda3af1.chunk.js": "/bigbang/static/js/3.aeda3af1.chunk.js",
+    "static/js/3.aeda3af1.chunk.js.map": "/bigbang/static/js/3.aeda3af1.chunk.js.map",
     "index.html": "/bigbang/index.html",
-    "precache-manifest.0df6833b37ac1e3ca02c2f978c93b7e0.js": "/bigbang/precache-manifest.0df6833b37ac1e3ca02c2f978c93b7e0.js",
+    "precache-manifest.2c4571c6a800ae828a8e2effc5c1e640.js": "/bigbang/precache-manifest.2c4571c6a800ae828a8e2effc5c1e640.js",
     "service-worker.js": "/bigbang/service-worker.js",
-    "static/css/main.47a685a7.chunk.css.map": "/bigbang/static/css/main.47a685a7.chunk.css.map",
-    "static/js/2.ceb7adf2.chunk.js.LICENSE.txt": "/bigbang/static/js/2.ceb7adf2.chunk.js.LICENSE.txt",
-    "static/media/earphone1.jpg": "/bigbang/static/media/earphone1.155bb000.jpg",
-    "static/media/earphone2.jpg": "/bigbang/static/media/earphone2.0859d323.jpg",
-    "static/media/icons8-whatsapp-512.png": "/bigbang/static/media/icons8-whatsapp-512.45a2cf0d.png",
-    "static/media/powerbank.jpg": "/bigbang/static/media/powerbank.fe5210b8.jpg",
-    "static/media/powerbank3.webp": "/bigbang/static/media/powerbank3.217a560a.webp",
-    "static/media/powerbank4.jpg": "/bigbang/static/media/powerbank4.ba61385a.jpg",
-    "static/media/smartwatch1.jpg": "/bigbang/static/media/smartwatch1.c115b7de.jpg",
-    "static/media/smartwatch2.jpeg": "/bigbang/static/media/smartwatch2.02d6201c.jpeg"
+    "static/css/main.36ac8185.chunk.css.map": "/bigbang/static/css/main.36ac8185.chunk.css.map",
+    "static/js/2.2b152d7c.chunk.js.LICENSE.txt": "/bigbang/static/js/2.2b152d7c.chunk.js.LICENSE.txt",
+    "static/media/icons8-whatsapp-512.png": "/bigbang/static/media/icons8-whatsapp-512.45a2cf0d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.627135bf.js",
-    "static/js/2.ceb7adf2.chunk.js",
-    "static/css/main.47a685a7.chunk.css",
-    "static/js/main.67aa8b24.chunk.js"
+    "static/js/runtime-main.3288fc37.js",
+    "static/js/2.2b152d7c.chunk.js",
+    "static/css/main.36ac8185.chunk.css",
+    "static/js/main.f64126e3.chunk.js"
   ]
 }
