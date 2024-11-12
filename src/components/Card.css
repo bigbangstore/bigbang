@@ -1,0 +1,117 @@
+/* src/components/Card.css */
+
+.card {
+    width: 190px;
+    height: 350px;
+    margin-top: 80px;
+    border: 3px solid #fff; /* Outer white border */
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+
+    /* Cool shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 8px 16px rgba(0, 0, 0, 0.1), 
+                0 16px 32px rgba(0, 0, 0, 0.15), 
+                0 32px 64px rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 
+                0 12px 24px rgba(0, 0, 0, 0.2), 
+                0 24px 48px rgba(0, 0, 0, 0.25), 
+                0 48px 96px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    border: 3px solid #fff; /* Outer white border */
+    padding: 5px; /* Space for inner border */
+    box-shadow: 0 0 0 3px #ddd; /* Inner border color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+
+
+.slider-container {
+    width: 100%;
+    height: 60%; /* Adjust to match your layout */
+}
+
+.card h2,
+.card p {
+    text-align: center;
+}
+
+.expanded {
+    height: auto; /* Allow the height to grow based on the content */
+    width: 350px; /* Set the expanded width */
+    z-index: 2; /* Ensure the expanded card stays on top */
+}
+
+.expanded-card {
+    display: block;
+    transition: all 0.3s ease;
+    margin-top: 100px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Styling for RTL languages (Dari, Pashto) */
+.rtl {
+    text-align: right;
+    direction: rtl; /* Set the text direction to right-to-left */
+    list-style-position: inside;
+}
+
+.rtl li {
+    text-align: right;
+    list-style-type: disc; /* You can change the list style if needed */
+}
+
+/* Card container styling to make cards appear next to each other */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;  /* Allow cards to wrap when they reach the edge of the screen */
+    justify-content: flex-start; /* Align cards to the start */
+}
+.expanded-card .close {
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.specs{
+    margin-bottom:10px;
+}
+@media (max-width: 768px) {
+    .expanded {
+        height: auto; /* Allow the height to grow based on the content */
+        width: 100%; /* Set the expanded width */
+        z-index: 2; /* Ensure the expanded card stays on top */
+    }
+  }

@@ -1,86 +1,56 @@
-import React, { useRef, useState, useEffect } from 'react';
-import './styles/Card.css';
+import React, { useState } from 'react';
+import Slider from './Slider';
+import Form from './Form';
+import './Card.css';
 
-const Card = ({ products }) => {
-  const cardRowRef = useRef(null);
-  const [currentCardIndex, setCurrentCardIndex] = useState(0);
-  const scrollInterval = useRef(null);
+function Card({ product, language }) {
+  const [expanded, setExpanded] = useState(false); // State to toggle expansion
 
-  const scrollToCard = (index) => {
-    const cardWidth = 250; // Adjust this to the width of each card
-    const offset = (cardRowRef.current.offsetWidth - cardWidth) / 2; // Centering offset
-    const scrollPosition = index * cardWidth - offset;
+  // Toggle expansion when clicking on the card (expand only)
+  const handleExpand = () => setExpanded(true);
 
-    cardRowRef.current.scrollTo({
-      left: scrollPosition,
-      behavior: 'smooth',
-    });
-    setCurrentCardIndex(index);
-  };
-
-  const scrollLeft = () => {
-    const newIndex = Math.max(currentCardIndex - 1, 0);
-    scrollToCard(newIndex);
-  };
-
-  const scrollRight = () => {
-    const newIndex = Math.min(currentCardIndex + 1, products.length - 1);
-    scrollToCard(newIndex);
-  };
-
-  useEffect(() => {
-    if (window.innerWidth <= 600) {
-      scrollToCard(currentCardIndex);
-    }
-  }, [currentCardIndex]);
-
-  const handleMouseDown = (direction) => {
-    scrollInterval.current = setInterval(() => {
-      cardRowRef.current.scrollLeft += direction === "left" ? -200 : 200;
-    }, 16);
-  };
-
-  const handleMouseUp = () => {
-    clearInterval(scrollInterval.current);
+  // Close the expanded card only when clicking on the close button
+  const handleClose = (event) => {
+    event.stopPropagation(); // Prevent the click event from bubbling up to the card
+    setExpanded(false); // Collapse the card
   };
 
   return (
-    <div className="card-container">
-      <button
-        className="arrow left-arrow"
-        onClick={scrollLeft}
-        onMouseDown={() => handleMouseDown("left")}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
-      >
-        &#9664;
-      </button>
+    <div className={`card ${expanded ? 'expanded' : ''}`} onClick={handleExpand}>
+      {/* Render the image or slider based on the expanded state */}
+      {!expanded ? (
+        <img 
+          src={process.env.PUBLIC_URL + product.images[0]} 
+          alt={product.title} 
+          className="card-image" 
+        />
+      ) : (
+        <Slider images={product.images} />
+      )}
 
-      <div className="card-row" ref={cardRowRef}>
-        {products.map((product) => (
-          <div key={product.id} className="card">
-            <img
-              src={require(`./images/${product.imgSrc}`)}
-              alt={product.title}
-              className="card-image"
-            />
-            <h3 className="card-title">{product.title}</h3>
-            <p className="card-price">{product.price}</p>
-          </div>
-        ))}
-      </div>
+      <h2>{product.title}</h2>
+      <p>{product.price}</p>
 
-      <button
-        className="arrow right-arrow"
-        onClick={scrollRight}
-        onMouseDown={() => handleMouseDown("right")}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
-      >
-        &#9654;
-      </button>
+      {/* Render the expanded content if 'expanded' is true */}
+      {expanded && (
+        <div className="expanded-card">
+          <h3 className='specs'>مشخصات</h3>
+          {/* Add RTL class conditionally based on the selected language */}
+          <ul className={language === 'dari' || language === 'pashto' ? 'rtl' : ''}>
+            {product.specification[language].map((spec, index) => (
+              <li key={index}>{spec}</li>
+            ))}
+          </ul>
+
+          {/* Pass `rtl` class to the Form component */}
+          <Form language={language} rtl={language === 'dari' || language === 'pashto'} />
+          
+          {/* Close button, which calls handleClose */}
+          <button className='close' onClick={handleClose}>X</button>
+        </div>
+      )}
     </div>
   );
-};
+}
 
 export default Card;

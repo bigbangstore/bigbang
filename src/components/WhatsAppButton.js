@@ -1,8 +1,9 @@
-// WhatsAppButton.js
-
 import React from 'react';
-import './styles/WhatsAppButton.css';
-import whatsappIcon from './images/whatsapp/icons8-whatsapp-512.png'; // Adjust the path based on where you saved the icon
+import './WhatsAppButton.css';
+
+// Import the image directly
+import whatsappIcon from './whatsapp/icons8-whatsapp-512.png'; // Adjust path based on file location
+
 const WhatsAppButton = () => {
   const openWhatsApp = () => {
     // Replace this with your WhatsApp Business number
@@ -15,7 +16,7 @@ const WhatsAppButton = () => {
   return (
     <button className="whatsapp-button" onClick={openWhatsApp}>
       <img
-        src={whatsappIcon} // WhatsApp logo
+        src={whatsappIcon} // Now we are using the imported image directly
         alt="WhatsApp"
         className="whatsapp-icon"
       />
