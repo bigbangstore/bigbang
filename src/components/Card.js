@@ -43,7 +43,7 @@ function Card({ product, language }) {
           </ul>
 
           {/* Pass `rtl` class to the Form component */}
-          <Form language={language} rtl={language === 'dari' || language === 'pashto'} />
+          <Form language={language} rtl={language === 'dari' || language === 'pashto'} product={product} />
           
           {/* Close button, which calls handleClose */}
           <button className='close' onClick={handleClose}>X</button>
