@@ -45,8 +45,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
 }
 
-
-
 .slider-container {
     width: 100%;
     height: 60%; /* Adjust to match your layout */
@@ -99,26 +97,31 @@ button:hover {
     flex-wrap: wrap;  /* Allow cards to wrap when they reach the edge of the screen */
     justify-content: flex-start; /* Align cards to the start */
 }
+
 .expanded-card .close {
     width: 100px;
     height: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.specs{
-    margin-bottom:10px;
+
+.specs {
+    margin-bottom: 10px;
 }
-li{
-    margin-top:20px;    
+
+li {
+    margin-top: 20px;    
 }
-ul{
-    margin-left : 20px;
-    margin-right : 20px;
+
+ul {
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 @media (max-width: 768px) {
     .expanded {
         height: auto; /* Allow the height to grow based on the content */
         width: 100%; /* Set the expanded width */
         z-index: 2; /* Ensure the expanded card stays on top */
     }
-  }
+}

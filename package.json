@@ -15,7 +15,10 @@
     "react-i18next": "^15.1.0",
     "react-router-dom": "^6.28.0",
     "react-scripts": "^3.0.1",
+
     "string-similarity": "^4.0.4",
+
+
     "web-vitals": "^2.1.4"
   },
   "scripts": {
