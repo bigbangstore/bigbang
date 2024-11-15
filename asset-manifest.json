@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/bigbang/static/css/main.36ac8185.chunk.css",
-    "main.js": "/bigbang/static/js/main.97057899.chunk.js",
-    "main.js.map": "/bigbang/static/js/main.97057899.chunk.js.map",
-    "runtime-main.js": "/bigbang/static/js/runtime-main.3288fc37.js",
-    "runtime-main.js.map": "/bigbang/static/js/runtime-main.3288fc37.js.map",
-    "static/js/2.2b152d7c.chunk.js": "/bigbang/static/js/2.2b152d7c.chunk.js",
-    "static/js/2.2b152d7c.chunk.js.map": "/bigbang/static/js/2.2b152d7c.chunk.js.map",
-    "static/js/3.aeda3af1.chunk.js": "/bigbang/static/js/3.aeda3af1.chunk.js",
-    "static/js/3.aeda3af1.chunk.js.map": "/bigbang/static/js/3.aeda3af1.chunk.js.map",
+    "main.css": "/bigbang/static/css/main.c4c9c760.chunk.css",
+    "main.js": "/bigbang/static/js/main.798f4e5a.chunk.js",
+    "main.js.map": "/bigbang/static/js/main.798f4e5a.chunk.js.map",
+    "runtime-main.js": "/bigbang/static/js/runtime-main.92c43d7d.js",
+    "runtime-main.js.map": "/bigbang/static/js/runtime-main.92c43d7d.js.map",
+    "static/js/2.18f72ef0.chunk.js": "/bigbang/static/js/2.18f72ef0.chunk.js",
+    "static/js/2.18f72ef0.chunk.js.map": "/bigbang/static/js/2.18f72ef0.chunk.js.map",
+    "static/js/3.2af7b68a.chunk.js": "/bigbang/static/js/3.2af7b68a.chunk.js",
+    "static/js/3.2af7b68a.chunk.js.map": "/bigbang/static/js/3.2af7b68a.chunk.js.map",
     "index.html": "/bigbang/index.html",
-    "precache-manifest.a13724e5c687fe2d933a00428d088169.js": "/bigbang/precache-manifest.a13724e5c687fe2d933a00428d088169.js",
+    "precache-manifest.89c39b3723138ff22d8423010f3d3042.js": "/bigbang/precache-manifest.89c39b3723138ff22d8423010f3d3042.js",
     "service-worker.js": "/bigbang/service-worker.js",
-    "static/css/main.36ac8185.chunk.css.map": "/bigbang/static/css/main.36ac8185.chunk.css.map",
-    "static/js/2.2b152d7c.chunk.js.LICENSE.txt": "/bigbang/static/js/2.2b152d7c.chunk.js.LICENSE.txt",
+    "static/css/main.c4c9c760.chunk.css.map": "/bigbang/static/css/main.c4c9c760.chunk.css.map",
+    "static/js/2.18f72ef0.chunk.js.LICENSE.txt": "/bigbang/static/js/2.18f72ef0.chunk.js.LICENSE.txt",
     "static/media/icons8-whatsapp-512.png": "/bigbang/static/media/icons8-whatsapp-512.45a2cf0d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3288fc37.js",
-    "static/js/2.2b152d7c.chunk.js",
-    "static/css/main.36ac8185.chunk.css",
-    "static/js/main.97057899.chunk.js"
+    "static/js/runtime-main.92c43d7d.js",
+    "static/js/2.18f72ef0.chunk.js",
+    "static/css/main.c4c9c760.chunk.css",
+    "static/js/main.798f4e5a.chunk.js"
   ]
 }
