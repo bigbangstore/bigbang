@@ -1,0 +1,28 @@
+/* src/components/Header.css */
+
+.header {
+    background-color: #333; /* Dark background */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f39c12; /* Optional border */
+  }
+  
+  .bigbang-title {
+    font-size: 3rem; /* Large font size */
+    color: #f39c12; /* Golden yellow color for "BigBang" */
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out; /* Fade-in effect */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

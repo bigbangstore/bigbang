@@ -1,0 +1,114 @@
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #f3f3f3;
+    color: #333;
+  }
+  
+  /* Header Component */
+  .header {
+    background-color: #000;
+    color: #f3bc3c; /* Luxurious gold color */
+    padding: 15px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #f3bc3c;
+  }
+  
+  /* Welcome Message */
+  .welcome-message {
+    background: linear-gradient(to right, #f3bc3c, #e7a529);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+  }
+  
+  .slogan {
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar input[type="text"]:focus {
+    border-color: #f3bc3c;
+    box-shadow: 0 4px 8px rgba(243, 188, 60, 0.2);
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f3bc3c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #e7a529;
+    box-shadow: 0 4px 8px rgba(243, 188, 60, 0.3);
+  }
+  
+  /* Language Switcher */
+  .language-switcher {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .language-switcher button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .language-switcher button:hover,
+  .language-switcher button.active {
+    background-color: #f3bc3c;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .language-switcher button.active {
+    background-color: #e7a529;
+  }
+  

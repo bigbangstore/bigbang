@@ -1,0 +1,39 @@
+/* src/components/Form.css */
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .order-form label {
+    font-weight: bold;
+  }
+  
+  .order-form input, .order-form button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .order-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* RTL Support */
+  .rtl {
+    direction: rtl; /* Set the text direction to right-to-left */
+    text-align: right; /* Align text and labels to the right */
+  }
+  
+  .rtl input, .rtl textarea {
+    direction: rtl; /* Input fields' text direction will be RTL */
+    text-align: right; /* Align text inside input to the right */
+  }
+  
+  .rtl label {
+    text-align: right; /* Align labels to the right */
+  }
+  
