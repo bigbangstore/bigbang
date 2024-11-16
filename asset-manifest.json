@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bigbang/static/css/main.c4c9c760.chunk.css",
-    "main.js": "/bigbang/static/js/main.c2cd1bfe.chunk.js",
-    "main.js.map": "/bigbang/static/js/main.c2cd1bfe.chunk.js.map",
+    "main.css": "/bigbang/static/css/main.792d9f66.chunk.css",
+    "main.js": "/bigbang/static/js/main.0aaff26b.chunk.js",
+    "main.js.map": "/bigbang/static/js/main.0aaff26b.chunk.js.map",
     "runtime-main.js": "/bigbang/static/js/runtime-main.92c43d7d.js",
     "runtime-main.js.map": "/bigbang/static/js/runtime-main.92c43d7d.js.map",
     "static/js/2.18f72ef0.chunk.js": "/bigbang/static/js/2.18f72ef0.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.2af7b68a.chunk.js": "/bigbang/static/js/3.2af7b68a.chunk.js",
     "static/js/3.2af7b68a.chunk.js.map": "/bigbang/static/js/3.2af7b68a.chunk.js.map",
     "index.html": "/bigbang/index.html",
-    "precache-manifest.6356ab9ed3285bc3887e1e9df599510e.js": "/bigbang/precache-manifest.6356ab9ed3285bc3887e1e9df599510e.js",
+    "precache-manifest.37e8bbff6dd76571b32eb03c19c5d9b8.js": "/bigbang/precache-manifest.37e8bbff6dd76571b32eb03c19c5d9b8.js",
     "service-worker.js": "/bigbang/service-worker.js",
-    "static/css/main.c4c9c760.chunk.css.map": "/bigbang/static/css/main.c4c9c760.chunk.css.map",
+    "static/css/main.792d9f66.chunk.css.map": "/bigbang/static/css/main.792d9f66.chunk.css.map",
     "static/js/2.18f72ef0.chunk.js.LICENSE.txt": "/bigbang/static/js/2.18f72ef0.chunk.js.LICENSE.txt",
     "static/media/icons8-whatsapp-512.png": "/bigbang/static/media/icons8-whatsapp-512.45a2cf0d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92c43d7d.js",
     "static/js/2.18f72ef0.chunk.js",
-    "static/css/main.c4c9c760.chunk.css",
-    "static/js/main.c2cd1bfe.chunk.js"
+    "static/css/main.792d9f66.chunk.css",
+    "static/js/main.0aaff26b.chunk.js"
   ]
 }
