@@ -9,7 +9,7 @@
     width: 100%;
     max-width: 400px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
   }
   
@@ -19,5 +19,9 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 10px; /* Reduce the gap between cards */
+  }
+  .instructions{
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   
